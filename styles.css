@@ -1,5 +1,8 @@
 * {
-  background-color: teal;
+  background-color: rgb(9, 15, 39);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -7,6 +10,9 @@ h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 40px;
   font-weight: 500;
+  color: azure;
+  background-color: crimson;
+  padding: 20px;
 }
 
 p {
@@ -18,20 +24,29 @@ p {
 }
 
 ul {
-  list-style:square;
+  list-style:none;
+  width: 250px;
+  margin: 20px auto;
 }
 
 li {
   color: beige;
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
+  text-align: center;
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 20px auto;
 }
 
 a {
-  color: coral;
+  color: crimson;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 20px;
   font-weight: 600;
+  background-color:rgb(9, 15, 39);
+  padding: 5px;
+
 }
 
 .image {
